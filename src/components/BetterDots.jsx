@@ -10,7 +10,7 @@ PARAM rows - rows
 PARAM col - columns
 */
 export default function BetterDots({ dotArrangement, rows = 1, cols = 1 }) {
-    const colors = ["red", "blue", "teal", "cyan"]
+    const colors = ["red", "blue", "teal", "gold","mediumorchid"]
     // generate an array of rows and columns
     const dotsArray = Array.from({ length: cols * rows });
     console.log("CURRENT DOT ARANGEMENT");
