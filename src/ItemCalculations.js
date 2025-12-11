@@ -23,10 +23,34 @@ export function SleepCalculation(hoursPerDay) {
     const yearsOnSleep = totalHours / 8760;
     return yearsOnSleep;
 }
-export function FriendsCalculation(hoursPerDay){
+export function FriendsCalculation(hoursPerWeek){
      // total hours over a lifetime
-    const totalHours = hoursPerDay * 365 * LIFETIME_YEARS;
+    const totalHours = hoursPerWeek * 52 * LIFETIME_YEARS;
     // convert hours to years
     const yearsOnFriends = totalHours / 8760;
     return yearsOnFriends;
+}
+
+export function yearsPerLife(yearsPerLife) {
+    return yearsPerLife;
+}
+
+export function hoursPerDay(hoursPerDay) {
+    const totalHours = hoursPerDay * 365 * LIFETIME_YEARS;
+    const years = totalHours / 8760;
+    return years;
+}
+
+export function hoursPerWeek(hoursPerWeek) {
+    // total hours over a lifetime
+    const totalHours = hoursPerWeek * 52 * LIFETIME_YEARS;
+    // convert hours to years
+    const years = totalHours / 8760;
+    return years;
+}
+export function hoursPerMonth(hoursPerMonth) {
+    // total hours over a lifetime
+    const totalHours = hoursPerMonth * 12 * LIFETIME_YEARS;
+    const years = totalHours / 8760;
+    return years;
 }

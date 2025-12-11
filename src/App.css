@@ -1,13 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
 @import "tailwindcss";
-img {
-  border: 1px solid #ddd;
-  border-radius: 4px;
-  padding: 5px;
-  width: 200px;
-}
 
-img:hover {
-  box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+@layer base {
+  body, html, #root {
+    background-image: url(https://img.freepik.com/free-photo/dreamy-rainbow-countryside_23-2151625152.jpg?semt=ais_hybrid&w=740&q=80) !important;
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+    background-attachment: fixed !important;
+  }
+  
 }
 
 .main-header {

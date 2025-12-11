@@ -37,11 +37,11 @@ export default function Item({
   }
 
   return (
-    <div className="bg-white rounded-xl shadow-lg p-6 max-w-sm border border-gray-200 flex flex-col items-center mb-5">
+    <div className="bg-white rounded-xl p-6 max-w-sm flex flex-col items-center mb-5">
       <img
         src={image_url}
         alt={name}
-        className="w-full h-48 object-contain rounded-lg mb-4"
+        className="w-full h-48 object-contain rounded-lg mb-4 border-0"
       />
       <h3 className="text-xl font-bold text-gray-800 mb-2 text-center">
         {name}

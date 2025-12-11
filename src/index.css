@@ -1,4 +1,21 @@
-.bg {
-    width : 500 px 
-    background image 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body, #root {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    background-image: url(https://img.freepik.com/free-photo/dreamy-rainbow-countryside_23-2151625152.jpg?semt=ais_hybrid&w=740&q=80);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.App {
+    min-height: 100vh;
 }
