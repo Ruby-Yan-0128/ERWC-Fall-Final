@@ -20,7 +20,7 @@ function App() {
 
   // Calculate total dots filled
   const totalDotsFilled = Object.values(dotArrangement).reduce((sum, val) => sum + val, 0);
-  const totalDotsAvailable = 70; 
+  const totalDotsAvailable = 80; 
   const isComplete = totalDotsFilled >= totalDotsAvailable;
 
 
@@ -39,7 +39,7 @@ function App() {
           <Item name={"Hours On Electronics"} image_url={"https://www.shutterstock.com/shutterstock/videos/1096538469/thumb/1.jpg?ip=x480"} unit_of_measurement={["hour per day","hours per day"]} calculation_function={hoursPerDay} shortName={"Phone"} setDotArrangment={setDotArrangement}/>
           <Item name={"Years of School"} image_url={"https://preview.redd.it/captain-underpants-the-first-epic-movie-v0-uqynry9bbqef1.png?width=1080&crop=smart&auto=webp&s=a290544479a03c8f56c5ce73b599cf488af6e68b"} unit_of_measurement={["year per life","years per life"]} calculation_function={yearsPerLife} shortName={"School"} setDotArrangment={setDotArrangement}/>
           <Item name={"Years of Work"} image_url={"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT8w7UFhS5J1a1326qjAtDOq-AVdJli1MItng&s"} unit_of_measurement={["year per life","years per life"]} calculation_function={yearsPerLife} shortName={"Work"} setDotArrangment={setDotArrangement}/>
-          <Item name={"Hours Sleeping"} image_url={"https://www.landofsleep.com/hubfs/social-suggested-images/cleanmattress-1.jpeg"} unit_of_measurement={["hour per day","hours per day"]} calculation_function={hoursPerDay} shortName={"Sleep"} setDotArrangment={setDotArrangement}/>
+          {/*<Item name={"Hours Sleeping"} image_url={"https://www.landofsleep.com/hubfs/social-suggested-images/cleanmattress-1.jpeg"} unit_of_measurement={["hour per day","hours per day"]} calculation_function={hoursPerDay} shortName={"Sleep"} setDotArrangment={setDotArrangement}/>*/}
           <Item name={"Hours With Friends"} image_url={"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQwBYpTcSgQhCvkUhzTLbv_s8YwBTwCy_gPYQ&s"} unit_of_measurement={["hour per week","hours per week"]} calculation_function={hoursPerWeek} shortName={"Friends"} setDotArrangment={setDotArrangement}/>
           <Item name={"Hours Partying"} image_url={"https://i.pinimg.com/474x/21/d9/e9/21d9e95265278353201cae31a92d08c8.jpg"} unit_of_measurement={["hour per month","hours per month"]} calculation_function={hoursPerMonth} shortName={"Partying"} setDotArrangment={setDotArrangement} />
           <Item name={"Hours on Hobbies"} image_url={"https://www.cullensbabyland.us/cdn/shop/products/download_3_3f6b2bdd-1f37-43e5-b522-d3ec327a737d_700x700.jpg?v=1643934189"} unit_of_measurement={["hour per week", "hours per week"]} calculation_function={hoursPerWeek} shortName={"Hobbies"} setDotArrangment={setDotArrangement} />

@@ -1,4 +1,4 @@
-const LIFETIME_YEARS = 70;
+const LIFETIME_YEARS = 50;
 export function PhoneCalculation(hoursPerDay) {
     console.log("calculating phone use for: " + hoursPerDay);
 
